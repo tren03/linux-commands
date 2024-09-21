@@ -1,0 +1,1 @@
+fzf | xargs xdg-open   => does a fuzzy search in your current directory and opens the file you select (I use it to open pdfs)

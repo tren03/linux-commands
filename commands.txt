@@ -1,4 +1,11 @@
 fzf | xargs xdg-open   => does a fuzzy search in your current directory and opens the file you select (I use it to open pdfs)
 feh .   => displays all images from terminal and we can do through with arrow or scroll
 scrot -s  => take a varible lenth screenshot and save it in your current directory:w
+tmux new-session -d -s <name> => create a new tmux session in dettached mode
+tmux neww -t <sessionname> => create a new window in the session 
+<ctrl-b> + c => open new window when in tmx sess
+<ctrl-b> + d => dettach from session
+<ctrl-b> + % => split window into panes 
+<ctrl-b> + & => close pane in window
+ 
 

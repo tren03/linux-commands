@@ -7,6 +7,15 @@ tmux neww -t <sessionname> => create a new window in the session
 <ctrl-b> + d => dettach from session
 <ctrl-b> + % => split window into panes 
 <ctrl-b> + & => close pane in window
+<ctrl-b> + [  => Enter copy mode in tmux term with vim motions
+<ctrl-b> + ]  => Paste items copied, the tmux-yank plugin helps to copy to system clip also 
 htop => monitor ram use
+du -h => free memory left
+sudo ncdu => terminal interface to browse through all files along with memory info
+sudo parted -l => displays all space in partitions on system
+
+
+
+
  
 

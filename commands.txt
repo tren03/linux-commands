@@ -14,9 +14,5 @@ du -h => free memory left
 sudo ncdu => terminal interface to browse through all files along with memory info
 sudo parted -l => displays all space in partitions on system
 sudo dmidecode --type memory - gives details about ram configured
-
-
-
-
- 
+bluetoothctl => configure bluetooth through terminal
 

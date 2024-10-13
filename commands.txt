@@ -15,4 +15,4 @@ sudo ncdu => terminal interface to browse through all files along with memory in
 sudo parted -l => displays all space in partitions on system
 sudo dmidecode --type memory - gives details about ram configured
 bluetoothctl => configure bluetooth through terminal
-
+vib => yanks text within any sets of brackets wtffasldkfjaslfjwlfjsdlfkjsd

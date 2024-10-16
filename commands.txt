@@ -23,5 +23,7 @@ nmcli dev wifi show : shows qr code to connect to the network you are connected
 nmcli dev wifi list : shows all wifi devices 
 nmcli dev wifi connect <mac-addr> <password> : connect to a wifi network available
 
+pactl list short sinks - view the audio outputs available
+pactl set-default-sink <sink-number> - switch the audio out
 
 

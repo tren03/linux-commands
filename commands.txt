@@ -27,6 +27,6 @@ pactl list short sinks - view the audio outputs available
 pactl set-default-sink <sink-number> - switch the audio out
 
 xrandr - show the display outputs
-xrandr --output <display_name> --mode <resolution> --rate <refresh_rate> - set referesh rate for specific disp
+xrandr --output <display_name> --mode <resolution> --rate <refresh_rate> - set referesh rate for specific disp , changes not permanent, add xord.config and add command to make persistenty
 
 

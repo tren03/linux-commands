@@ -30,3 +30,8 @@ xrandr - show the display outputs
 xrandr --output <display_name> --mode <resolution> --rate <refresh_rate> - set referesh rate for specific disp , changes not permanent, add xord.config and add command to make persistenty
 
 
+sudo update-alternatives --config x-terminal-emulator -> showed me the current terminal emulators i have configured so that i can select default term
+sudo update-alternatives --install /usr/bin/x-terminal-emulator x-terminal-emulator ~/.local/kitty.app/bin/kitty 50 -> register kitty as a terminal to use and set its priority
+
+
+

@@ -34,4 +34,7 @@ sudo update-alternatives --config x-terminal-emulator -> showed me the current t
 sudo update-alternatives --install /usr/bin/x-terminal-emulator x-terminal-emulator ~/.local/kitty.app/bin/kitty 50 -> register kitty as a terminal to use and set its priority
 
 
+SUPER COOL PDF COMMANDS - NEVER EVER NEED TO LEAVE THE TERMINAL F YEAHHHH
+pdf2dsc           pdfattach         pdffonts          pdfinfo           pdfsig            pdftk.pdftk-java  pdftohtml         pdftops           pdfunite
+pdf2ps            pdfdetach         pdfimages         pdfseparate       pdftk             pdftocairo        pdftoppm          pdftotext
 

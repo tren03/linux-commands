@@ -1,0 +1,15 @@
+why i get sqlite3 missing error (virual env)? how to fix it
+i get this error
+
+django.core.exceptions.ImproperlyConfigured: Error loading either pysqlite2 or sqlite3 modules (tried in that order): No module named '_sqlite3'
+
+pls help to fix this issue
+
+Stuart McIntosh
+Stuart McIntosh 
+on Oct 13, 2017
+Hi there, just had the same issue. I googled and go this answer:
+
+When you setup your virtual environment you need to give the environment access to the site packages with the following command
+
+virtualenv --system-site-packages your virtual environment name
